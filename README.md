@@ -1,0 +1,1 @@
+# KNN-Prediksi-Type-Laptop.
