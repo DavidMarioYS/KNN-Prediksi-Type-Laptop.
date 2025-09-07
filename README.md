@@ -28,19 +28,6 @@ Dataset yang digunakan dalam proyek ini adalah `laptop_data_cleaned.csv`, yang b
 
 ## ⚙️ Metodologi Alur Kerja
 
-Proyek ini mengikuti alur kerja machine learning yang terstruktur, divisualisasikan dalam diagram berikut:
-
-```mermaid
-graph TD
-    A[ Mulai ] --> B[1. Pemuatan Data <br><i>(laptop_data_cleaned.csv)</i>];
-    B --> C[2. Analisis Data Eksplorasi (EDA) <br><i>(Visualisasi dengan Seaborn & Matplotlib)</i>];
-    C --> D[3. Prapemrosesan Data <br><i>(One-Hot Encoding & Scaling)</i>];
-    D --> E[4. Pembagian Data <br><i>(Data Latih & Data Uji)</i>];
-    E --> F[5. Pelatihan Model <br><i>(Algoritma K-Nearest Neighbors)</i>];
-    F --> G[6. Evaluasi Model <br><i>(Accuracy, Confusion Matrix, etc.)</i>];
-    G --> H[7. Penyimpanan Model <br><i>(knn_model.joblib)</i>];
-    H --> I[ Selesai ];
-```
 
 **Penjelasan Detail:**
 1.  **Analisis Data Eksplorasi (EDA)**: Memahami distribusi, korelasi, dan hubungan antar fitur menggunakan visualisasi data.
